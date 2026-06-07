@@ -7,6 +7,38 @@ document.addEventListener('dragstart', e => {
   if (e.target.tagName === 'IMG') e.preventDefault();
 });
 
+/* ─── Shared Chrome ─────────────────────────────────────────────── */
+function injectChrome() {
+  const headerMount = document.getElementById('header-mount');
+  if (headerMount) {
+    headerMount.outerHTML = `
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="site-name"><a href="index.html">Dan Coman</a></div>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="index.html#projects">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+  <nav class="mobile-nav" aria-label="Mobile navigation">
+    <a href="index.html#projects">Projects</a>
+    <a href="contact.html">Contact</a>
+  </nav>`;
+  }
+
+  const footerMount = document.getElementById('footer-mount');
+  if (footerMount) {
+    footerMount.outerHTML = `
+  <footer class="site-footer">
+    <p>Dan Coman &mdash; &copy; ${new Date().getFullYear()}</p>
+  </footer>`;
+  }
+}
+
 /* ─── Header / Mobile Nav ──────────────────────────────────────── */
 function initHeader() {
   const hamburger = document.querySelector('.hamburger');
@@ -201,6 +233,7 @@ function initProjectPage() {
 
 /* ─── Init ──────────────────────────────────────────────────────── */
 document.addEventListener('DOMContentLoaded', () => {
+  injectChrome();
   initHeader();
   buildHeroSlides();
   buildProjectsGrid();

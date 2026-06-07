@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Photographer — Portfolio</title>
-  <meta name="description" content="Photography portfolio — selected projects in landscape, portrait, and documentary work.">
+  <meta name="description" content="Photography portfolio — selected travel, portrait, and documentary work.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
@@ -12,28 +12,9 @@
 </head>
 <body>
 
-  <!-- Header -->
-  <header class="site-header">
-    <div class="header-inner">
-      <div class="site-name"><a href="index.html">Your Name</a></div>
-      <nav class="site-nav" aria-label="Primary navigation">
-        <a href="index.html#projects">Projects</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-      <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
-    </div>
-  </header>
-
-  <!-- Mobile nav -->
-  <nav class="mobile-nav" aria-label="Mobile navigation">
-    <a href="index.html#projects">Projects</a>
-    <a href="contact.html">Contact</a>
-  </nav>
+  <div id="header-mount"></div>
 
   <main>
-    <!-- Hero Carousel -->
     <section class="hero" aria-label="Featured projects">
       <div class="hero-track"></div>
       <button class="hero-btn prev" aria-label="Previous slide">&#8592;</button>
@@ -41,18 +22,14 @@
       <div class="hero-dots" role="tablist" aria-label="Slide indicators"></div>
     </section>
 
-    <!-- Projects Grid -->
     <section class="projects-section" id="projects">
       <p class="section-label">Selected Work</p>
       <div class="projects-grid" id="projects-grid"></div>
     </section>
   </main>
 
-  <footer class="site-footer">
-    <p>Your Name &mdash; &copy; <span id="year"></span></p>
-  </footer>
+  <div id="footer-mount"></div>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
   <script src="js/config.js"></script>
   <script src="js/main.js"></script>
 </body>

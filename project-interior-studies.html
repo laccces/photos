@@ -11,23 +11,7 @@
 </head>
 <body data-project="interior-studies">
 
-  <header class="site-header">
-    <div class="header-inner">
-      <div class="site-name"><a href="index.html">Your Name</a></div>
-      <nav class="site-nav" aria-label="Primary navigation">
-        <a href="index.html#projects">Projects</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-      <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
-    </div>
-  </header>
-
-  <nav class="mobile-nav" aria-label="Mobile navigation">
-    <a href="index.html#projects">Projects</a>
-    <a href="contact.html">Contact</a>
-  </nav>
+  <div id="header-mount"></div>
 
   <main>
     <article class="project-page">
@@ -53,11 +37,8 @@
     </article>
   </main>
 
-  <footer class="site-footer">
-    <p>Your Name &mdash; &copy; <span id="year"></span></p>
-  </footer>
+  <div id="footer-mount"></div>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
   <script src="js/config.js"></script>
   <script src="js/main.js"></script>
 </body>
