@@ -7,10 +7,10 @@ const CONFIG = {
       description: "A collection of commissioned portraits and corporate headshots",
       cover: { src: "https://picsum.photos/seed/urban-cover/1600/1067", orientation: "landscape" },
       images: [
-        { src: "https://picsum.photos/seed/urban-01/1600/1067", orientation: "landscape" },
-        { src: "https://picsum.photos/seed/urban-02/800/1200", orientation: "portrait" },
+        { src: "https://picsum.photos/seed/urban-01/1600/1067", orientation: "landscape", caption: "Sarah, London, 2024" },
+        { src: "https://picsum.photos/seed/urban-02/800/1200", orientation: "portrait", caption: "Corporate commission, Canary Wharf" },
         { src: "https://picsum.photos/seed/urban-03/1600/1067", orientation: "landscape" },
-        { src: "https://picsum.photos/seed/urban-04/800/1200", orientation: "portrait" },
+        { src: "https://picsum.photos/seed/urban-04/800/1200", orientation: "portrait", caption: "Available light, north-facing window" },
         { src: "https://picsum.photos/seed/urban-05/1600/1067", orientation: "landscape" },
         { src: "https://picsum.photos/seed/urban-06/800/1200", orientation: "portrait" },
       ]
@@ -30,9 +30,9 @@ const CONFIG = {
       ]
     },
     {
-      id: "interior-studies",
-      title: "Interior Studies",
-      description: "Available light portraits within domestic spaces — an intimate record of everyday life.",
+      id: "norfolk-beaches",
+      title: "Norfolk Beaches",
+      description: "Lorem ipsum.",
       cover: { src: "https://picsum.photos/seed/interior-cover/800/1200", orientation: "portrait" },
       images: [
         { src: "https://picsum.photos/seed/interior-01/800/1200", orientation: "portrait" },

@@ -191,26 +191,38 @@ function initProjectPage() {
   if (descEl) descEl.textContent = project.description;
 
   featured.src = project.images[0].src;
-  featured.alt = project.title;
+  featured.alt = project.images[0].caption || project.title;
+
+  const captionEl = document.getElementById('featured-caption');
+
+  function setCaption(text) {
+    if (!captionEl) return;
+    captionEl.textContent = text || '';
+    captionEl.hidden = !text;
+  }
+
+  setCaption(project.images[0].caption);
 
   const thumbGrid = document.getElementById('thumb-grid');
   project.images.forEach((img, i) => {
     const item = document.createElement('div');
     item.className = 'thumb-item img-wrap' + (i === 0 ? ' active' : '');
     item.innerHTML = `
-      <img src="${img.src}" alt="${project.title} — image ${i + 1}" loading="lazy">
+      <img src="${img.src}" alt="${img.caption || (project.title + ' — image ' + (i + 1))}" loading="lazy">
       <div class="img-overlay" aria-hidden="true"></div>
     `;
-    item.addEventListener('click', () => selectImage(item, img.src));
+    item.addEventListener('click', () => selectImage(item, img));
     thumbGrid.appendChild(item);
   });
 
-  function selectImage(item, src) {
+  function selectImage(item, img) {
     featured.classList.add('fade');
     setTimeout(() => {
-      featured.src = src;
+      featured.src = img.src;
+      featured.alt = img.caption || project.title;
       featured.classList.remove('fade');
     }, 200);
+    setCaption(img.caption);
     thumbGrid.querySelectorAll('.thumb-item').forEach(t => t.classList.remove('active'));
     item.classList.add('active');
   }

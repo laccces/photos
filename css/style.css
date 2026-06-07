@@ -398,6 +398,16 @@ h1, h2, h3 {
 
 .featured-viewer img.fade { opacity: 0; }
 
+/* Featured caption */
+.featured-caption {
+  padding: 10px 0 0;
+  font-size: 12px;
+  color: var(--mid);
+  letter-spacing: 0.03em;
+  line-height: 1.6;
+  font-style: italic;
+}
+
 /* Thumbnail strip */
 .thumb-grid {
   display: grid;
