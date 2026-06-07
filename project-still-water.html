@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Still Water — Your Name</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-project="still-water">
+
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="site-name"><a href="index.html">Your Name</a></div>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="index.html#projects">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <nav class="mobile-nav" aria-label="Mobile navigation">
+    <a href="index.html#projects">Projects</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <main>
+    <article class="project-page">
+      <header class="project-header">
+        <h1 id="project-title"></h1>
+        <p id="project-desc"></p>
+      </header>
+
+      <figure class="featured-viewer">
+        <div class="img-wrap">
+          <img id="featured-img" src="" alt="" loading="eager">
+          <div class="img-overlay" aria-hidden="true"></div>
+        </div>
+      </figure>
+
+      <div class="thumb-grid" id="thumb-grid" role="list" aria-label="Project images"></div>
+
+      <nav class="project-nav" aria-label="Project navigation">
+        <a href="#" id="nav-prev">&#8592; <span></span></a>
+        <a href="index.html#projects" class="back">All Projects</a>
+        <a href="#" id="nav-next"><span></span> &#8594;</a>
+      </nav>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <p>Your Name &mdash; &copy; <span id="year"></span></p>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
