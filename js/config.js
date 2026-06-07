@@ -2,9 +2,9 @@ const CONFIG = {
   baseUrl: "https://placeholder.cloudfront.net",
   projects: [
     {
-      id: "urban-light",
-      title: "Urban Light",
-      description: "Street photography exploring the interplay of artificial light and shadow in the city at night.",
+      id: "portraits",
+      title: "Portraits",
+      description: "A collection of commissioned portraits and corporate headshots",
       cover: { src: "https://picsum.photos/seed/urban-cover/1600/1067", orientation: "landscape" },
       images: [
         { src: "https://picsum.photos/seed/urban-01/1600/1067", orientation: "landscape" },
@@ -16,9 +16,9 @@ const CONFIG = {
       ]
     },
     {
-      id: "still-water",
-      title: "Still Water",
-      description: "Long-exposure seascapes captured at dawn, where sea meets sky in silence.",
+      id: "japan",
+      title: "Travel: Japan",
+      description: "Lorem ipsum.",
       cover: { src: "https://picsum.photos/seed/water-cover/1600/1067", orientation: "landscape" },
       images: [
         { src: "https://picsum.photos/seed/water-01/1600/1067", orientation: "landscape" },
