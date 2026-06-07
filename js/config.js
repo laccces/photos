@@ -44,9 +44,9 @@ const CONFIG = {
       ]
     },
     {
-      id: "open-country",
-      title: "Open Country",
-      description: "Wide landscapes of the rural interior — flat light, vast horizons, quietude.",
+      id: "carrow-road",
+      title: "Carrow Road",
+      description: "Lorem ipsum",
       cover: { src: "https://picsum.photos/seed/country-cover/1600/1067", orientation: "landscape" },
       images: [
         { src: "https://picsum.photos/seed/country-01/1600/1067", orientation: "landscape" },
@@ -58,9 +58,9 @@ const CONFIG = {
       ]
     },
     {
-      id: "close-studies",
-      title: "Close Studies",
-      description: "Macro and detail work — texture, pattern, and form at the threshold of recognition.",
+      id: "scott-racing",
+      title: "Scott Racing",
+      description: "lorem ipsum",
       cover: { src: "https://picsum.photos/seed/close-cover/1200/1200", orientation: "landscape" },
       images: [
         { src: "https://picsum.photos/seed/close-01/1200/1200", orientation: "landscape" },
@@ -72,9 +72,9 @@ const CONFIG = {
       ]
     },
     {
-      id: "transit",
-      title: "Transit",
-      description: "Photographs made in motion — trains, terminals, thresholds, and passing strangers.",
+      id: "yr-wyddfa",
+      title: "Yr Wyddfa",
+      description: "lorem ipsum",
       cover: { src: "https://picsum.photos/seed/transit-cover/1600/1067", orientation: "landscape" },
       images: [
         { src: "https://picsum.photos/seed/transit-01/1600/1067", orientation: "landscape" },
