@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrow Road — Dan Coman</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-project="carrow-road">
+
+  <div id="header-mount"></div>
+
+  <main>
+    <article class="project-page">
+      <header class="project-header">
+        <h1 id="project-title"></h1>
+        <p id="project-desc"></p>
+      </header>
+
+      <figure class="featured-viewer">
+        <div class="img-wrap">
+          <img id="featured-img" src="" alt="" loading="eager">
+          <div class="img-overlay" aria-hidden="true"></div>
+        </div>
+        <figcaption id="featured-caption" class="featured-caption" hidden></figcaption>
+      </figure>
+
+      <div class="thumb-grid" id="thumb-grid" role="list" aria-label="Project images"></div>
+
+      <nav class="project-nav" aria-label="Project navigation">
+        <a href="#" id="nav-prev">&#8592; <span></span></a>
+        <a href="index.html#projects" class="back">All Projects</a>
+        <a href="#" id="nav-next"><span></span> &#8594;</a>
+      </nav>
+    </article>
+  </main>
+
+  <div id="footer-mount"></div>
+
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
