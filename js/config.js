@@ -46,8 +46,8 @@ const CONFIG = {
     {
       id: "carrow-road",
       title: "Carrow Road",
-      description: "Lorem ipsum",
-      cover: { src: "https://dan-portfolio-images.s3.eu-north-1.amazonaws.com/carrow-road/Harrod-Groundsman-18.jpg", orientation: "landscape" },
+      description: "A dream come true: a shoot at Carrow Road, home of Norwich City FC",
+      cover: { src: "https://dan-portfolio-images.s3.eu-north-1.amazonaws.com/carrow-road/Harrod-Groundsman-22.jpg", orientation: "landscape" },
       images: [
         { src: "https://dan-portfolio-images.s3.eu-north-1.amazonaws.com/carrow-road/Harrod-Groundsman-18.jpg", orientation: "landscape" },
         { src: "https://dan-portfolio-images.s3.eu-north-1.amazonaws.com/carrow-road/Harrod-Groundsman-19.jpg", orientation: "landscape" },
