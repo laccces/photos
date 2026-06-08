@@ -81,15 +81,19 @@ const CONFIG = {
     {
       id: "yr-wyddfa",
       title: "Yr Wyddfa",
-      description: "lorem ipsum",
-      cover: { src: "https://picsum.photos/seed/transit-cover/1600/1067", orientation: "landscape" },
+      description: "An ongoing series on Snowdon — returning to the mountain across seasons and conditions.",
+      cover: { src: "https://dan-portfolio-images.s3.eu-north-1.amazonaws.com/snowdon/snowdon-18.jpg", orientation: "landscape" },
       images: [
-        { src: "https://picsum.photos/seed/transit-01/1600/1067", orientation: "landscape" },
-        { src: "https://picsum.photos/seed/transit-02/800/1200", orientation: "portrait" },
-        { src: "https://picsum.photos/seed/transit-03/1600/1067", orientation: "landscape" },
-        { src: "https://picsum.photos/seed/transit-04/800/1200", orientation: "portrait" },
-        { src: "https://picsum.photos/seed/transit-05/1600/1067", orientation: "landscape" },
-        { src: "https://picsum.photos/seed/transit-06/800/1200", orientation: "portrait" },
+        { src: "https://dan-portfolio-images.s3.eu-north-1.amazonaws.com/snowdon/snowdon-18.jpg", orientation: "landscape" },
+        { src: "https://dan-portfolio-images.s3.eu-north-1.amazonaws.com/snowdon/snowdon-25.jpg", orientation: "landscape" },
+        { src: "https://dan-portfolio-images.s3.eu-north-1.amazonaws.com/snowdon/snowdon-44.jpg", orientation: "landscape" },
+        { src: "https://dan-portfolio-images.s3.eu-north-1.amazonaws.com/snowdon/snowdon-51.jpg", orientation: "landscape" },
+        { src: "https://dan-portfolio-images.s3.eu-north-1.amazonaws.com/snowdon/snowdon-52.jpg", orientation: "landscape" },
+        { src: "https://dan-portfolio-images.s3.eu-north-1.amazonaws.com/snowdon/snowdon-56.jpg", orientation: "landscape" },
+        { src: "https://dan-portfolio-images.s3.eu-north-1.amazonaws.com/snowdon/snowdon-62.jpg", orientation: "landscape" },
+        { src: "https://dan-portfolio-images.s3.eu-north-1.amazonaws.com/snowdon/snowdon-63.jpg", orientation: "landscape" },
+        { src: "https://dan-portfolio-images.s3.eu-north-1.amazonaws.com/snowdon/snowdon-64.jpg", orientation: "landscape" },
+        { src: "https://dan-portfolio-images.s3.eu-north-1.amazonaws.com/snowdon/snowdon-7.jpg", orientation: "landscape" },
       ]
     }
   ]
