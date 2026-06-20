@@ -286,6 +286,10 @@ h1, h2, h3 {
   cursor: default;
 }
 
+.project-card .img-overlay {
+  cursor: pointer;
+}
+
 /* ─── Projects Grid (homepage) ─────────────────────────────────── */
 .projects-section {
   max-width: var(--max-w);
