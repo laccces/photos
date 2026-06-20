@@ -2,20 +2,6 @@ const CONFIG = {
   baseUrl: "https://placeholder.cloudfront.net",
   projects: [
     {
-      id: "portraits",
-      title: "Portraits",
-      description: "A collection of commissioned portraits and corporate headshots",
-      cover: { src: "https://picsum.photos/seed/urban-cover/1600/1067", orientation: "landscape" },
-      images: [
-        { src: "https://picsum.photos/seed/urban-01/1600/1067", orientation: "landscape", caption: "Sarah, London, 2024" },
-        { src: "https://picsum.photos/seed/urban-02/800/1200", orientation: "portrait", caption: "Corporate commission, Canary Wharf" },
-        { src: "https://picsum.photos/seed/urban-03/1600/1067", orientation: "landscape" },
-        { src: "https://picsum.photos/seed/urban-04/800/1200", orientation: "portrait", caption: "Available light, north-facing window" },
-        { src: "https://picsum.photos/seed/urban-05/1600/1067", orientation: "landscape" },
-        { src: "https://picsum.photos/seed/urban-06/800/1200", orientation: "portrait" },
-      ]
-    },
-    {
       id: "japan",
       title: "Travel: Japan",
       description: "Two weeks in Japan in 2018 — Tokyo, Kyoto, Osaka, and the countryside between. Street scenes, temples, and everyday life.",
@@ -127,6 +113,19 @@ const CONFIG = {
         { src: "https://dan-portfolio-images.s3.eu-north-1.amazonaws.com/snowdon/snowdon-64.jpg", orientation: "landscape" },
         { src: "https://dan-portfolio-images.s3.eu-north-1.amazonaws.com/snowdon/snowdon-7.jpg", orientation: "landscape" },
       ]
-    }
+    },
+    {
+      id: "portraits",
+      title: "Portraits",
+      description: "A collection of commissioned portraits and corporate headshots",
+      hideFromCarousel: true,
+      cover: { src: "https://dan-portfolio-images.s3.eu-north-1.amazonaws.com/headshots/portrait1.jpg", orientation: "portrait" },
+      images: [
+        { src: "https://dan-portfolio-images.s3.eu-north-1.amazonaws.com/headshots/portrait1.jpg", orientation: "portrait" },
+        { src: "https://dan-portfolio-images.s3.eu-north-1.amazonaws.com/headshots/portrait2.jpg", orientation: "portrait" },
+        { src: "https://dan-portfolio-images.s3.eu-north-1.amazonaws.com/headshots/portrait3.jpg", orientation: "portrait" },
+        { src: "https://dan-portfolio-images.s3.eu-north-1.amazonaws.com/headshots/portrait4.jpg", orientation: "portrait" },
+      ]
+    },
   ]
 };

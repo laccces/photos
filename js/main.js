@@ -157,7 +157,7 @@ function buildHeroSlides() {
   const track = document.querySelector('.hero-track');
   if (!track || typeof CONFIG === 'undefined') return;
 
-  CONFIG.projects.forEach(project => {
+  CONFIG.projects.filter(p => !p.hideFromCarousel).forEach(project => {
     const slide = document.createElement('div');
     slide.className = 'hero-slide';
     slide.innerHTML = `
