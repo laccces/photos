@@ -4,7 +4,7 @@ const CONFIG = {
     {
       id: "japan",
       title: "Travel: Japan",
-      description: "Two weeks in Japan in 2018 — Tokyo, Kyoto, Osaka, and the countryside between. Street scenes, temples, and everyday life.",
+      description: "Two weeks in Japan in 2018: Tokyo, Kyoto, Osaka, and the countryside between. Street scenes, temples, and everyday life.",
       cover: { src: "https://dan-portfolio-images.s3.eu-north-1.amazonaws.com/japan/japan-13.jpg", orientation: "landscape" },
       images: [
         { src: "https://dan-portfolio-images.s3.eu-north-1.amazonaws.com/japan/japan-11.jpg", orientation: "landscape" },
@@ -99,7 +99,7 @@ const CONFIG = {
     {
       id: "yr-wyddfa",
       title: "Yr Wyddfa",
-      description: "An ongoing series in Wales — returning to the mountain and surrounding areas across seasons and conditions.",
+      description: "An ongoing series in Wales: returning to the mountain and surrounding areas across seasons and conditions.",
       cover: { src: "https://dan-portfolio-images.s3.eu-north-1.amazonaws.com/snowdon/snowdon-56.jpg", orientation: "landscape" },
       images: [
         { src: "https://dan-portfolio-images.s3.eu-north-1.amazonaws.com/snowdon/snowdon-18.jpg", orientation: "landscape" },
